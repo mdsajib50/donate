@@ -1,0 +1,174 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/flood-1.jpeg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+.img-text h1{
+    font-size: 36px;
+}
+.img-text p{
+    font-size: 24px;
+}
+
+.img-text button{
+    padding: 20px;
+    font-size: 30px;
+    background-color: crimson;
+    border: none;
+    border-radius: 10px;
+}
+#donate-money{
+    text-align: center;
+    margin-top: 80px;
+}
+#donate-money h1{
+    font-size: 40px;
+}
+#donate-money p{
+    font-size: 18px;
+}
+.amount{
+    background-color: rgb(212, 209, 209);
+    margin: 10px;
+    padding: 30px;
+    display: inline-block;
+    font-size: 24px;
+    color: darkseagreen;
+    width: 90px;
+}
+.active{
+    border: 2px solid #ff5100;
+    color: #ff5100;
+}
+
+.amount-btn{
+    margin-top: 50px;
+}
+.amount-btn input{
+    border: none;
+    border-bottom: 2px solid rgba(22, 22, 22, 0.11);
+    width: 600px;
+    text-align: center;
+    font: 1em sans-serif;
+    padding: 10px;
+
+}
+
+.amount-btn button{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: crimson;
+    border: none;
+    border-radius: 10px;
+  
+}
+
+#donate-plan{
+    margin-top: 130px;
+}
+
+.donate-text h1{
+   font-size: 35px;
+   text-transform: capitalize;
+   text-align: center;
+}
+.donate-text p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.donate-list{
+    margin-left: 85px;
+}
+.donate-item{
+    width: 25%;
+    background-color: cornflowerblue;
+    padding: 25px;
+    margin: 10px;
+    display: inline-block;
+
+}
+.donate-item h1{
+    text-transform: capitalize;
+}
+
+.update-area{
+    margin-top: 130px;
+}
+.update-form{
+    text-align: center;
+    
+}
+.update-form h1{
+    font: 40px sans-serif;
+    text-transform: capitalize;
+}
+.update-form p{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+.update-form form{
+    background-color: rgb(123, 198, 241);
+    width: 60%;
+    margin: 0 auto;
+    height: 250px;
+    margin-top: 50px;
+   
+}
+.update-form input{
+    padding: 20px;
+    width: 250px;
+    margin: 0px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+.update-form button{
+    background-color: rgb(255, 51, 0);
+    padding: 18px 30px;
+    font: 18px sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    margin: 0px;
+    border-radius: 0px 10px 10px 0px;
+}
+.input-fild{
+    display: flex;
+    justify-content: center;
+   padding-top: 15%;
+}
+#footer{
+    background-color: black;
+    padding: 30px;
+    margin-top: 80px;
+}
+#footer h1{
+    color: chocolate;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+
+}
+
+#footer p{
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
